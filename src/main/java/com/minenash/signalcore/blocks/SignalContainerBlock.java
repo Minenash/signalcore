@@ -7,11 +7,11 @@ import net.minecraft.block.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class SignalContainer extends Block {
+public class SignalContainerBlock extends Block {
 
     private final int POWER;
 
-    public SignalContainer(int power) {
+    public SignalContainerBlock(int power) {
         super(FabricBlockSettings.copy(Blocks.REDSTONE_BLOCK));
         POWER = power;
     }

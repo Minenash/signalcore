@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "signalcore:block/strong_signal_block_twelve" }
+  }
+}

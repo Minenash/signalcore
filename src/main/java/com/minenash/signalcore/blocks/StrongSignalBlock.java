@@ -7,6 +7,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
 
 public class StrongSignalBlock extends Block {
 
@@ -19,6 +20,18 @@ public class StrongSignalBlock extends Block {
 
     public int getPOWER() {
         return POWER;
+    }
+
+    @Override
+    public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
+        for (Direction direction : Direction.values())
+            world.updateNeighborsAlways(pos.offset(direction), this);
+    }
+
+    @Override
+    public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
+        for (Direction direction : Direction.values())
+            world.updateNeighborsAlways(pos.offset(direction), this);
     }
 
     @Override
