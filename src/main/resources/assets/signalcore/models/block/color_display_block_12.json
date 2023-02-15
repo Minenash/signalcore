@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "signalcore:block/color_display/12"
+  }
+}

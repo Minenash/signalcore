@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "signalcore:block/strong_directional_signal_block_fourteen", "x": 270 },
+    "facing=down": { "model": "signalcore:block/strong_directional_signal_block_fourteen", "x": 90 },
+    "facing=north": { "model": "signalcore:block/strong_directional_signal_block_fourteen" },
+    "facing=south": { "model": "signalcore:block/strong_directional_signal_block_fourteen", "y": 180 },
+    "facing=east": { "model": "signalcore:block/strong_directional_signal_block_fourteen", "y": 90 },
+    "facing=west": { "model": "signalcore:block/strong_directional_signal_block_fourteen", "y": 270 }
+  }
+}

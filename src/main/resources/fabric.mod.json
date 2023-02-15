@@ -18,9 +18,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "com.minenash.signalcore.SignalCore"
-    ]
+    "main": [ "com.minenash.signalcore.SignalCore" ],
+    "client": [ "com.minenash.signalcore.SignalCoreClient" ]
   },
   "mixins": [
   ],

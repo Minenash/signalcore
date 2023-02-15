@@ -1,6 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "signalcore:block/signal_cube_overlay",
   "textures": {
-    "all": "signalcore:block/signal_container_fifteen"
+	"base": "signalcore:block/base/signal_15",
+	"number": "signalcore:block/number/15",
+	"overlay": "signalcore:block/overlay/container"
   }
 }

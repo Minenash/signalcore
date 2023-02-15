@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "signalcore:block/signal_cube",
   "textures": {
-    "all": "signalcore:block/signal_block_three"
+	"base": "signalcore:block/base/signal_3",
+	"number": "signalcore:block/number/3"
   }
 }
