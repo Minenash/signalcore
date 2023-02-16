@@ -1,20 +1,20 @@
 {
   "variants": {
-    "power=0": { "model": "signalcore:block/strong_number_display_block_0" },
-    "power=1": { "model": "signalcore:block/strong_number_display_block_1" },
-    "power=2": { "model": "signalcore:block/strong_number_display_block_2" },
-    "power=3": { "model": "signalcore:block/strong_number_display_block_3" },
-    "power=4": { "model": "signalcore:block/strong_number_display_block_4" },
-    "power=5": { "model": "signalcore:block/strong_number_display_block_5" },
-    "power=6": { "model": "signalcore:block/strong_number_display_block_6" },
-    "power=7": { "model": "signalcore:block/strong_number_display_block_7" },
-    "power=8": { "model": "signalcore:block/strong_number_display_block_8" },
-    "power=9": { "model": "signalcore:block/strong_number_display_block_9" },
-    "power=10": { "model": "signalcore:block/strong_number_display_block_a" },
-    "power=11": { "model": "signalcore:block/strong_number_display_block_b" },
-    "power=12": { "model": "signalcore:block/strong_number_display_block_c" },
-    "power=13": { "model": "signalcore:block/strong_number_display_block_d" },
-    "power=14": { "model": "signalcore:block/strong_number_display_block_e" },
-    "power=15": { "model": "signalcore:block/strong_number_display_block_f" }
+    "power=0": { "model": "signalcore:block/display/strong_number_display_block_0" },
+    "power=1": { "model": "signalcore:block/display/strong_number_display_block_1" },
+    "power=2": { "model": "signalcore:block/display/strong_number_display_block_2" },
+    "power=3": { "model": "signalcore:block/display/strong_number_display_block_3" },
+    "power=4": { "model": "signalcore:block/display/strong_number_display_block_4" },
+    "power=5": { "model": "signalcore:block/display/strong_number_display_block_5" },
+    "power=6": { "model": "signalcore:block/display/strong_number_display_block_6" },
+    "power=7": { "model": "signalcore:block/display/strong_number_display_block_7" },
+    "power=8": { "model": "signalcore:block/display/strong_number_display_block_8" },
+    "power=9": { "model": "signalcore:block/display/strong_number_display_block_9" },
+    "power=10": { "model": "signalcore:block/display/strong_number_display_block_a" },
+    "power=11": { "model": "signalcore:block/display/strong_number_display_block_b" },
+    "power=12": { "model": "signalcore:block/display/strong_number_display_block_c" },
+    "power=13": { "model": "signalcore:block/display/strong_number_display_block_d" },
+    "power=14": { "model": "signalcore:block/display/strong_number_display_block_e" },
+    "power=15": { "model": "signalcore:block/display/strong_number_display_block_f" }
   }
 }

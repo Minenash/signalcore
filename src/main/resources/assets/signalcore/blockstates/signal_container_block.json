@@ -1,0 +1,21 @@
+{
+  "multipart": [
+    { "when" :  {"power":  0}, "apply": { "model": "signalcore:block/signal_block_0"} },
+    { "when" :  {"power":  1}, "apply": { "model": "signalcore:block/signal_block_1"} },
+    { "when" :  {"power":  2}, "apply": { "model": "signalcore:block/signal_block_2"} },
+    { "when" :  {"power":  3}, "apply": { "model": "signalcore:block/signal_block_3"} },
+    { "when" :  {"power":  4}, "apply": { "model": "signalcore:block/signal_block_4"} },
+    { "when" :  {"power":  5}, "apply": { "model": "signalcore:block/signal_block_5"} },
+    { "when" :  {"power":  6}, "apply": { "model": "signalcore:block/signal_block_6"} },
+    { "when" :  {"power":  7}, "apply": { "model": "signalcore:block/signal_block_7"} },
+    { "when" :  {"power":  8}, "apply": { "model": "signalcore:block/signal_block_8"} },
+    { "when" :  {"power":  9}, "apply": { "model": "signalcore:block/signal_block_9"} },
+    { "when" :  {"power":  10}, "apply": { "model": "signalcore:block/signal_block_10"} },
+    { "when" :  {"power":  11}, "apply": { "model": "signalcore:block/signal_block_11"} },
+    { "when" :  {"power":  12}, "apply": { "model": "signalcore:block/signal_block_12"} },
+    { "when" :  {"power":  13}, "apply": { "model": "signalcore:block/signal_block_13"} },
+    { "when" :  {"power":  14}, "apply": { "model": "signalcore:block/signal_block_14"} },
+    { "when" :  {"power":  15}, "apply": { "model": "signalcore:block/signal_block_15"} },
+    { "apply": { "model": "signalcore:block/signal_container_block" } }
+  ]
+}

@@ -4,6 +4,7 @@ import com.minenash.signalcore.SignalCore;
 import com.minenash.signalcore.blocks.displays.DisplayBlock;
 import com.minenash.signalcore.blocks.displays.StrongDetectingDisplayBlock;
 import com.minenash.signalcore.blocks.displays.StrongDisplayBlock;
+import com.minenash.signalcore.blocks.new_signals.*;
 import com.minenash.signalcore.blocks.signals.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
@@ -30,11 +31,17 @@ public class SignalCoreBlocks {
     public static final Block STRONG_HEX_DISPLAY_BLOCK = register("strong_hex_display_block", new StrongDisplayBlock());
     public static final Block COLOR_DISPLAY_BLOCK = register("color_display_block", new DisplayBlock());
 
-    public static final Block[] SIGNAL_BLOCKS = registerSignalBlocks("signal_block_", SignalBlock.class);
-    public static final Block[] STRONG_SIGNAL_BLOCKS = registerSignalBlocks("strong_signal_block_", StrongSignalBlock.class);
-    public static final Block[] SIGNAL_CONTAINERS = registerSignalBlocks("signal_container_", SignalContainerBlock.class);
-    public static final Block[] DIRECTIONAL_SIGNAL_BLOCKS = registerSignalBlocks("directional_signal_block_", DirectionalSignalBlock.class);
-    public static final Block[] STRONG_DIRECTIONAL_SIGNAL_BLOCKS = registerSignalBlocks("strong_directional_signal_block_", StrongDirectionalSignalBlock.class);
+    public static final Block SIGNAL_BLOCK = register("signal_block", new NewSignalBlock());
+    public static final Block STRONG_SIGNAL_BLOCK = register("strong_signal_block", new NewStrongSignalBlock());
+    public static final Block SIGNAL_CONTAINER_BLOCK = register("signal_container_block", new NewSignalContainerBlock());
+    public static final Block DIRECTIONAL_SIGNAL_BLOCK = register("directional_signal_block", new NewDirectionalSignalBlock());
+    public static final Block STRONG_DIRECTIONAL_SIGNAL_BLOCK = register("strong_directional_signal_block", new NewStrongDirectionalSignalBlock());
+
+//    public static final Block[] SIGNAL_BLOCKS = registerSignalBlocks("signal_block_", SignalBlock.class);
+//    public static final Block[] STRONG_SIGNAL_BLOCKS = registerSignalBlocks("strong_signal_block_", StrongSignalBlock.class);
+//    public static final Block[] SIGNAL_CONTAINERS = registerSignalBlocks("signal_container_", SignalContainerBlock.class);
+//    public static final Block[] DIRECTIONAL_SIGNAL_BLOCKS = registerSignalBlocks("directional_signal_block_", DirectionalSignalBlock.class);
+//    public static final Block[] STRONG_DIRECTIONAL_SIGNAL_BLOCKS = registerSignalBlocks("strong_directional_signal_block_", StrongDirectionalSignalBlock.class);
 
 
 

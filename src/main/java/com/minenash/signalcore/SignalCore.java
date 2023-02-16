@@ -22,7 +22,7 @@ public class SignalCore implements ModInitializer {
 			"eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen"};
 
 	private static final ItemGroup ITEM_GROUP = FabricItemGroup.builder(new Identifier(MOD_ID, "signalcore"))
-			.icon(() -> new ItemStack(SIGNAL_BLOCKS[15]))
+			.icon(() -> new ItemStack(SIGNAL_BLOCK))
 			.entries((enabledFeatures, entries, operatorEnabled) -> {
 				for (Block b : ALL_BLOCKS)
 					entries.add(b);
