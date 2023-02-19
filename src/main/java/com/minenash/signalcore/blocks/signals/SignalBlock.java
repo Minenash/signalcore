@@ -35,7 +35,9 @@ public class SignalBlock extends Block {
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (debug && !world.isClient) {
-            world.setBlockState(pos, state.cycle(POWER), Block.NOTIFY_NEIGHBORS);
+            int power = state.get(POWER);
+            power = player.isSneaking() ? (--power == -1 ? 15 : power) : (++power == 16 ? 0 : power);
+            world.setBlockState(pos, state.with(POWER, power), Block.NOTIFY_NEIGHBORS);
             return ActionResult.SUCCESS;
         } else {
             return ActionResult.CONSUME;

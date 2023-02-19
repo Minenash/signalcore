@@ -1,13 +1,11 @@
 package com.minenash.signalcore.registries;
 
 import com.minenash.signalcore.SignalCore;
-import com.minenash.signalcore.blocks.displays.DisplayBlock;
-import com.minenash.signalcore.blocks.displays.DisplayTile;
-import com.minenash.signalcore.blocks.displays.StrongDetectingDisplayBlock;
-import com.minenash.signalcore.blocks.displays.StrongDisplayBlock;
+import com.minenash.signalcore.blocks.displays.*;
 import com.minenash.signalcore.blocks.signals.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -34,6 +32,7 @@ public class SignalCoreBlocks {
     public static final Block INPUT_TILE = register("input_tile", new InputTile());
     public static final Block DISPLAY_TILE = register("display_tile", new DisplayTile());
     public static final Block HEX_DISPLAY_TILE = register("hex_display_tile", new DisplayTile());
+    public static final BlockEntityType<DisplayTileEntity> DISPLAY_TILE_ENTITY = DisplayTileEntity.register();
 
     private static final boolean debug = true;
 
