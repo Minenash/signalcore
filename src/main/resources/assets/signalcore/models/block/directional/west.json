@@ -1,0 +1,22 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "side_left": "signalcore:block/direction/side_left",
+    "side_right": "signalcore:block/direction/side_right",
+    "front": "signalcore:block/direction/front",
+    "back": "signalcore:block/direction/back"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#side_left", "cullface": "down", "rotation":  270 },
+        "up":    { "texture": "#side_left", "cullface": "up", "rotation":  90 },
+        "north": { "texture": "#front", "cullface": "north" },
+        "south": { "texture": "#back", "cullface": "south" },
+        "west":  { "texture": "#side_left", "cullface": "west" },
+        "east":  { "texture": "#side_right", "cullface": "east" }
+      }
+    }
+  ]
+}

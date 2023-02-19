@@ -30,11 +30,14 @@ public class SignalCoreBlocks {
     public static final Block STRONG_HEX_DISPLAY_BLOCK = register("strong_hex_display_block", new StrongDisplayBlock());
     public static final Block COLOR_DISPLAY_BLOCK = register("color_display_block", new DisplayBlock());
 
-    public static final Block SIGNAL_BLOCK = register("signal_block", new SignalBlock());
-    public static final Block STRONG_SIGNAL_BLOCK = register("strong_signal_block", new StrongSignalBlock());
-    public static final Block SIGNAL_CONTAINER_BLOCK = register("signal_container_block", new SignalContainerBlock());
-    public static final Block DIRECTIONAL_SIGNAL_BLOCK = register("directional_signal_block", new DirectionalSignalBlock());
-    public static final Block STRONG_DIRECTIONAL_SIGNAL_BLOCK = register("strong_directional_signal_block", new StrongDirectionalSignalBlock());
+    private static final boolean debug = true;
+
+    public static final Block SIGNAL_BLOCK = register("signal_block", new SignalBlock(debug));
+    public static final Block STRONG_SIGNAL_BLOCK = register("strong_signal_block", new StrongSignalBlock(debug));
+    public static final Block SIGNAL_CONTAINER_BLOCK = register("signal_container_block", new SignalContainerBlock(debug));
+    public static final Block DIRECTIONAL_SIGNAL_BLOCK = register("directional_signal_block", new DirectionalSignalBlock(debug));
+    public static final Block STRONG_DIRECTIONAL_SIGNAL_BLOCK = register("strong_directional_signal_block", new StrongDirectionalSignalBlock(debug));
+
 
     private static Block register(String id, Block block) {
         Block b = Registry.register(Registries.BLOCK, new Identifier(SignalCore.MOD_ID, id), block);

@@ -16,11 +16,11 @@
     { "when" :  {"power":  13}, "apply": { "model": "signalcore:block/signal_block_13"} },
     { "when" :  {"power":  14}, "apply": { "model": "signalcore:block/signal_block_14"} },
     { "when" :  {"power":  15}, "apply": { "model": "signalcore:block/signal_block_15"} },
-    { "when" :  {"facing":  "up"}, "apply": { "model": "signalcore:block/directional_signal_block", "x": 270} },
-    { "when" :  {"facing":  "down"}, "apply": { "model": "signalcore:block/directional_signal_block", "x":  90} },
-    { "when" :  {"facing":  "north"}, "apply": { "model": "signalcore:block/directional_signal_block"} },
-    { "when" :  {"facing":  "south"}, "apply": { "model": "signalcore:block/directional_signal_block", "y": 180} },
-    { "when" :  {"facing":  "east"}, "apply": { "model": "signalcore:block/directional_signal_block", "y": 90} },
-    { "when" :  {"facing":  "west"}, "apply": { "model": "signalcore:block/directional_signal_block", "y": 270} }
+    { "when" :  {"facing":  "up"}, "apply": { "model": "signalcore:block/directional/up"} },
+    { "when" :  {"facing":  "down"}, "apply": { "model": "signalcore:block/directional/down"} },
+    { "when" :  {"facing":  "north"}, "apply": { "model": "signalcore:block/directional/north"} },
+    { "when" :  {"facing":  "south"}, "apply": { "model": "signalcore:block/directional/south", "y": 180} },
+    { "when" :  {"facing":  "east"}, "apply": { "model": "signalcore:block/directional/east", "y": 90} },
+    { "when" :  {"facing":  "west"}, "apply": { "model": "signalcore:block/directional/west", "y": 270} }
   ]
 }
