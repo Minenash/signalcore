@@ -2,6 +2,7 @@ package com.minenash.signalcore.registries;
 
 import com.minenash.signalcore.SignalCore;
 import com.minenash.signalcore.blocks.displays.DisplayBlock;
+import com.minenash.signalcore.blocks.displays.DisplayTile;
 import com.minenash.signalcore.blocks.displays.StrongDetectingDisplayBlock;
 import com.minenash.signalcore.blocks.displays.StrongDisplayBlock;
 import com.minenash.signalcore.blocks.signals.*;
@@ -29,6 +30,10 @@ public class SignalCoreBlocks {
     public static final Block STRONG_NUMBER_DISPLAY_BLOCK = register("strong_number_display_block", new StrongDisplayBlock());
     public static final Block STRONG_HEX_DISPLAY_BLOCK = register("strong_hex_display_block", new StrongDisplayBlock());
     public static final Block COLOR_DISPLAY_BLOCK = register("color_display_block", new DisplayBlock());
+
+    public static final Block INPUT_TILE = register("input_tile", new InputTile());
+    public static final Block DISPLAY_TILE = register("display_tile", new DisplayTile());
+    public static final Block HEX_DISPLAY_TILE = register("hex_display_tile", new DisplayTile());
 
     private static final boolean debug = true;
 

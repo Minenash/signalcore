@@ -1,5 +1,6 @@
 package com.minenash.signalcore.blocks.signals;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -11,6 +12,9 @@ public class StrongSignalBlock extends SignalBlock {
 
     public StrongSignalBlock(boolean debug) {
         super(debug);
+    }
+    public StrongSignalBlock(boolean debug, AbstractBlock.Settings settings) {
+        super(debug, settings);
     }
 
     @Override

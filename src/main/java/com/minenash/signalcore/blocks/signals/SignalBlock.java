@@ -1,6 +1,7 @@
 package com.minenash.signalcore.blocks.signals;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Material;
@@ -22,7 +23,11 @@ public class SignalBlock extends Block {
     public final boolean debug;
 
     public SignalBlock(boolean debug) {
-        super(FabricBlockSettings.of(Material.STONE));
+        this(debug, FabricBlockSettings.of(Material.STONE));
+    }
+
+    public SignalBlock(boolean debug, AbstractBlock.Settings settings) {
+        super(settings);
         this.debug = debug;
         this.setDefaultState(this.getDefaultState().with(POWER, 0));
     }
