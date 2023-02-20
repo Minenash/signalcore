@@ -1,0 +1,13 @@
+{
+  "multipart": [
+    { "when": {"on": false, "facing": "north"}, "apply": { "model": "signalcore:block/tiles/0", "y": 180 } },
+    { "when": {"on": false, "facing": "east"},  "apply": { "model": "signalcore:block/tiles/0", "y": 270 } },
+    { "when": {"on": false, "facing": "west"},  "apply": { "model": "signalcore:block/tiles/0", "y": 90 } },
+    { "when": {"on": false, "facing": "south"}, "apply": { "model": "signalcore:block/tiles/0" } },
+    { "when": {"on": true, "facing": "north"}, "apply": { "model": "signalcore:block/tiles/1", "y": 180 } },
+    { "when": {"on": true, "facing": "east"},  "apply": { "model": "signalcore:block/tiles/1", "y": 270 } },
+    { "when": {"on": true, "facing": "west"},  "apply": { "model": "signalcore:block/tiles/1", "y": 90 } },
+    { "when": {"on": true, "facing": "south"}, "apply": { "model": "signalcore:block/tiles/1" } },
+    { "apply": {"model": "signalcore:block/tiles/input"}  }
+  ]
+}

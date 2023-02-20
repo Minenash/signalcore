@@ -1,5 +1,5 @@
 {
-  "parent": "signalcore:block/display/strong_number_display_block_a",
+  "parent": "signalcore:block/display/strong_number_display_block_0",
   "display": {
     "gui": {
       "rotation": [ 210, 225, 180 ],

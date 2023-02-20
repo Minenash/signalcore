@@ -8,8 +8,8 @@
   },
   "textures": {
     "base": "signalcore:block/base/display",
-    "weak": "signalcore:block/number/a",
-    "strong": "signalcore:block/number/strong_a"
+    "weak": "signalcore:block/number/0",
+    "strong": "signalcore:block/number/strong_0"
   },
   "elements": [
     { "from": [ 0, 0, 0 ],

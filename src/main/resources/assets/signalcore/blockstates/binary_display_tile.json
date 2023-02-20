@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "on=false,facing=north": { "model": "signalcore:block/tiles/0", "y": 180  },
+    "on=false,facing=east":  { "model": "signalcore:block/tiles/0", "y": 270 },
+    "on=false,facing=west":  { "model": "signalcore:block/tiles/0", "y": 90 },
+    "on=false,facing=south": { "model": "signalcore:block/tiles/0" },
+    "on=true,facing=north": { "model": "signalcore:block/tiles/1", "y": 180  },
+    "on=true,facing=east":  { "model": "signalcore:block/tiles/1", "y": 270 },
+    "on=true,facing=west":  { "model": "signalcore:block/tiles/1", "y": 90 },
+    "on=true,facing=south": { "model": "signalcore:block/tiles/1" }
+  }
+}

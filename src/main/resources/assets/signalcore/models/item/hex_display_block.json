@@ -1,3 +1,9 @@
 {
-  "parent": "signalcore:block/display/number_display_block_a"
+  "parent": "signalcore:block/display/number_display_block_a",
+  "display": {
+    "gui": {
+      "rotation": [ 210, 225, 180 ],
+      "scale":[ 0.625, 0.625, 0.625 ]
+    }
+  }
 }

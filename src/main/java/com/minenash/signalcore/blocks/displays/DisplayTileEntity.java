@@ -19,6 +19,7 @@ public class DisplayTileEntity extends BlockEntity {
     public static BlockEntityType<DisplayTileEntity> register() {
         return Registry.register(Registries.BLOCK_ENTITY_TYPE,
                 new Identifier(SignalCore.MOD_ID, "display_tile"),
-                FabricBlockEntityTypeBuilder.create(DisplayTileEntity::new, SignalCoreBlocks.DISPLAY_TILE, SignalCoreBlocks.HEX_DISPLAY_TILE).build());
+                FabricBlockEntityTypeBuilder.create(DisplayTileEntity::new,
+                        SignalCoreBlocks.DISPLAY_TILE, SignalCoreBlocks.HEX_DISPLAY_TILE, SignalCoreBlocks.BINARY_DISPLAY_TILE).build());
     }
 }
